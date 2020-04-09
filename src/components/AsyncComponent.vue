@@ -16,6 +16,7 @@ import AsyncError from "./Error";
 
 export default {
     name: "AsyncComponent",
+    inheritAttrs: false,
     props: {
       component: {
         type: Function,
